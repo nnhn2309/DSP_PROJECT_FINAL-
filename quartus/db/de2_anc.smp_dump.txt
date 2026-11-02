@@ -1,0 +1,43 @@
+
+State Machine - |de2_anc_top|feedback_fxlms_bram:anc|cal_mode
+Name cal_mode.CAL_OFF cal_mode.CAL_VALIDATE cal_mode.CAL_TRAIN 
+cal_mode.CAL_OFF 0 0 0 
+cal_mode.CAL_TRAIN 1 0 1 
+cal_mode.CAL_VALIDATE 1 1 0 
+
+State Machine - |de2_anc_top|feedback_fxlms_bram:anc|op
+Name op.OP_XF op.OP_W op.OP_PRED op.OP_IDENT 
+op.OP_IDENT 0 0 0 0 
+op.OP_PRED 0 0 1 1 
+op.OP_W 0 1 0 1 
+op.OP_XF 1 0 0 1 
+
+State Machine - |de2_anc_top|decimator8_fir127:decim|state
+Name state.COMMIT state.ACCUM state.MULTIPLY state.WAIT_READ state.REQUEST state.IDLE 
+state.IDLE 0 0 0 0 0 0 
+state.REQUEST 0 0 0 0 1 1 
+state.WAIT_READ 0 0 0 1 0 1 
+state.MULTIPLY 0 0 1 0 0 1 
+state.ACCUM 0 1 0 0 0 1 
+state.COMMIT 1 0 0 0 0 1 
+
+State Machine - |de2_anc_top|wm8731_config:cfg|state
+Name state.FAILED state.DONE state.SETTLE state.NEXT state.STOP_RELEASE state.STOP_HIGH state.STOP_LOW state.ACK_END state.ACK_SAMPLE state.ACK_HIGH state.ACK_LOW state.BIT_END state.BIT_HOLD state.BIT_HIGH state.BIT_LOW state.START_B state.START_A state.WAIT_START 
+state.WAIT_START 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+state.START_A 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 
+state.START_B 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 1 
+state.BIT_LOW 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 1 
+state.BIT_HIGH 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 1 
+state.BIT_HOLD 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 1 
+state.BIT_END 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 1 
+state.ACK_LOW 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 1 
+state.ACK_HIGH 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 1 
+state.ACK_SAMPLE 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 1 
+state.ACK_END 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 1 
+state.STOP_LOW 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 1 
+state.STOP_HIGH 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 1 
+state.STOP_RELEASE 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 1 
+state.NEXT 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+state.SETTLE 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+state.DONE 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+state.FAILED 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 

@@ -1,0 +1,85 @@
+------------------------------------------------------------
+TimeQuest Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow Model Setup 'clk50'
+Slack : 0.648
+TNS   : 0.000
+
+Type  : Slow Model Setup 'codec_bclk'
+Slack : 22.612
+TNS   : 0.000
+
+Type  : Slow Model Hold 'clk50'
+Slack : 0.391
+TNS   : 0.000
+
+Type  : Slow Model Hold 'codec_bclk'
+Slack : 0.391
+TNS   : 0.000
+
+Type  : Slow Model Recovery 'clk50'
+Slack : 16.719
+TNS   : 0.000
+
+Type  : Slow Model Recovery 'codec_bclk'
+Slack : 39.589
+TNS   : 0.000
+
+Type  : Slow Model Removal 'codec_bclk'
+Slack : 1.031
+TNS   : 0.000
+
+Type  : Slow Model Removal 'clk50'
+Slack : 2.387
+TNS   : 0.000
+
+Type  : Slow Model Minimum Pulse Width 'clk50'
+Slack : 7.873
+TNS   : 0.000
+
+Type  : Slow Model Minimum Pulse Width 'codec_bclk'
+Slack : 40.666
+TNS   : 0.000
+
+Type  : Fast Model Setup 'clk50'
+Slack : 11.832
+TNS   : 0.000
+
+Type  : Fast Model Setup 'codec_bclk'
+Slack : 23.759
+TNS   : 0.000
+
+Type  : Fast Model Hold 'clk50'
+Slack : 0.215
+TNS   : 0.000
+
+Type  : Fast Model Hold 'codec_bclk'
+Slack : 0.215
+TNS   : 0.000
+
+Type  : Fast Model Recovery 'clk50'
+Slack : 18.160
+TNS   : 0.000
+
+Type  : Fast Model Recovery 'codec_bclk'
+Slack : 40.576
+TNS   : 0.000
+
+Type  : Fast Model Removal 'codec_bclk'
+Slack : 0.580
+TNS   : 0.000
+
+Type  : Fast Model Removal 'clk50'
+Slack : 1.471
+TNS   : 0.000
+
+Type  : Fast Model Minimum Pulse Width 'clk50'
+Slack : 7.873
+TNS   : 0.000
+
+Type  : Fast Model Minimum Pulse Width 'codec_bclk'
+Slack : 40.666
+TNS   : 0.000
+
+------------------------------------------------------------

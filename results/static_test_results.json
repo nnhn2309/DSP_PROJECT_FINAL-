@@ -1,0 +1,372 @@
+[
+  {
+    "test": "RTL modules present",
+    "pass_": true,
+    "details": "['audio_pll', 'dc_blocker', 'de2_anc_top', 'decimator8_fir127', 'feedback_fxlms_bram', 'i2s_master_codec', 'interpolator8_linear', 'lfsr_prbs31', 'wm8731_config']"
+  },
+  {
+    "test": "interpolator8_linear module/endmodule count",
+    "pass_": true,
+    "details": "1/1"
+  },
+  {
+    "test": "interpolator8_linear begin/end count",
+    "pass_": true,
+    "details": "7/7"
+  },
+  {
+    "test": "interpolator8_linear case/endcase count",
+    "pass_": true,
+    "details": "0/0"
+  },
+  {
+    "test": "interpolator8_linear function/endfunction count",
+    "pass_": true,
+    "details": "1/1"
+  },
+  {
+    "test": "interpolator8_linear braces ()",
+    "pass_": true,
+    "details": "14/14"
+  },
+  {
+    "test": "interpolator8_linear braces []",
+    "pass_": true,
+    "details": "8/8"
+  },
+  {
+    "test": "decimator8_fir127 module/endmodule count",
+    "pass_": true,
+    "details": "1/1"
+  },
+  {
+    "test": "decimator8_fir127 begin/end count",
+    "pass_": true,
+    "details": "14/14"
+  },
+  {
+    "test": "decimator8_fir127 case/endcase count",
+    "pass_": true,
+    "details": "2/2"
+  },
+  {
+    "test": "decimator8_fir127 function/endfunction count",
+    "pass_": true,
+    "details": "2/2"
+  },
+  {
+    "test": "decimator8_fir127 braces ()",
+    "pass_": true,
+    "details": "23/23"
+  },
+  {
+    "test": "decimator8_fir127 braces []",
+    "pass_": true,
+    "details": "19/19"
+  },
+  {
+    "test": "de2_anc_top module/endmodule count",
+    "pass_": true,
+    "details": "1/1"
+  },
+  {
+    "test": "de2_anc_top begin/end count",
+    "pass_": true,
+    "details": "26/26"
+  },
+  {
+    "test": "de2_anc_top case/endcase count",
+    "pass_": true,
+    "details": "1/1"
+  },
+  {
+    "test": "de2_anc_top function/endfunction count",
+    "pass_": true,
+    "details": "1/1"
+  },
+  {
+    "test": "de2_anc_top braces ()",
+    "pass_": true,
+    "details": "135/135"
+  },
+  {
+    "test": "de2_anc_top braces []",
+    "pass_": true,
+    "details": "109/109"
+  },
+  {
+    "test": "lfsr_prbs31 module/endmodule count",
+    "pass_": true,
+    "details": "1/1"
+  },
+  {
+    "test": "lfsr_prbs31 begin/end count",
+    "pass_": true,
+    "details": "3/3"
+  },
+  {
+    "test": "lfsr_prbs31 case/endcase count",
+    "pass_": true,
+    "details": "0/0"
+  },
+  {
+    "test": "lfsr_prbs31 function/endfunction count",
+    "pass_": true,
+    "details": "0/0"
+  },
+  {
+    "test": "lfsr_prbs31 braces ()",
+    "pass_": true,
+    "details": "4/4"
+  },
+  {
+    "test": "lfsr_prbs31 braces []",
+    "pass_": true,
+    "details": "7/7"
+  },
+  {
+    "test": "audio_pll module/endmodule count",
+    "pass_": true,
+    "details": "1/1"
+  },
+  {
+    "test": "audio_pll begin/end count",
+    "pass_": true,
+    "details": "0/0"
+  },
+  {
+    "test": "audio_pll case/endcase count",
+    "pass_": true,
+    "details": "0/0"
+  },
+  {
+    "test": "audio_pll function/endfunction count",
+    "pass_": true,
+    "details": "0/0"
+  },
+  {
+    "test": "audio_pll braces ()",
+    "pass_": true,
+    "details": "24/24"
+  },
+  {
+    "test": "audio_pll braces []",
+    "pass_": true,
+    "details": "2/2"
+  },
+  {
+    "test": "feedback_fxlms_bram module/endmodule count",
+    "pass_": true,
+    "details": "1/1"
+  },
+  {
+    "test": "feedback_fxlms_bram begin/end count",
+    "pass_": true,
+    "details": "65/65"
+  },
+  {
+    "test": "feedback_fxlms_bram case/endcase count",
+    "pass_": true,
+    "details": "1/1"
+  },
+  {
+    "test": "feedback_fxlms_bram function/endfunction count",
+    "pass_": true,
+    "details": "9/9"
+  },
+  {
+    "test": "feedback_fxlms_bram braces ()",
+    "pass_": true,
+    "details": "139/139"
+  },
+  {
+    "test": "feedback_fxlms_bram braces []",
+    "pass_": true,
+    "details": "111/111"
+  },
+  {
+    "test": "i2s_master_codec module/endmodule count",
+    "pass_": true,
+    "details": "1/1"
+  },
+  {
+    "test": "i2s_master_codec begin/end count",
+    "pass_": true,
+    "details": "13/13"
+  },
+  {
+    "test": "i2s_master_codec case/endcase count",
+    "pass_": true,
+    "details": "0/0"
+  },
+  {
+    "test": "i2s_master_codec function/endfunction count",
+    "pass_": true,
+    "details": "0/0"
+  },
+  {
+    "test": "i2s_master_codec braces ()",
+    "pass_": true,
+    "details": "13/13"
+  },
+  {
+    "test": "i2s_master_codec braces []",
+    "pass_": true,
+    "details": "10/10"
+  },
+  {
+    "test": "dc_blocker module/endmodule count",
+    "pass_": true,
+    "details": "1/1"
+  },
+  {
+    "test": "dc_blocker begin/end count",
+    "pass_": true,
+    "details": "7/7"
+  },
+  {
+    "test": "dc_blocker case/endcase count",
+    "pass_": true,
+    "details": "0/0"
+  },
+  {
+    "test": "dc_blocker function/endfunction count",
+    "pass_": true,
+    "details": "1/1"
+  },
+  {
+    "test": "dc_blocker braces ()",
+    "pass_": true,
+    "details": "16/16"
+  },
+  {
+    "test": "dc_blocker braces []",
+    "pass_": true,
+    "details": "8/8"
+  },
+  {
+    "test": "wm8731_config module/endmodule count",
+    "pass_": true,
+    "details": "1/1"
+  },
+  {
+    "test": "wm8731_config begin/end count",
+    "pass_": true,
+    "details": "28/28"
+  },
+  {
+    "test": "wm8731_config case/endcase count",
+    "pass_": true,
+    "details": "2/2"
+  },
+  {
+    "test": "wm8731_config function/endfunction count",
+    "pass_": true,
+    "details": "1/1"
+  },
+  {
+    "test": "wm8731_config braces ()",
+    "pass_": true,
+    "details": "26/26"
+  },
+  {
+    "test": "wm8731_config braces []",
+    "pass_": true,
+    "details": "14/14"
+  },
+  {
+    "test": "Quartus references all sources",
+    "pass_": true,
+    "details": "['audio_pll.v', 'dc_blocker.v', 'de2_anc_top.v', 'decimator8_fir127.v', 'feedback_fxlms_bram.v', 'i2s_master_codec.v', 'interpolator8_linear.v', 'lfsr_prbs31.v', 'wm8731_config.v']"
+  },
+  {
+    "test": "QSF 45 pins unique",
+    "pass_": true,
+    "details": "45"
+  },
+  {
+    "test": "QSF pins match DE2 CSV",
+    "pass_": true,
+    "details": "45 assignments"
+  },
+  {
+    "test": "s_ram M4K style",
+    "pass_": true,
+    "details": "synchronous BRAM-style declaration"
+  },
+  {
+    "test": "s_ram not array async-reset",
+    "pass_": true,
+    "details": "no for-loop clear in async-reset"
+  },
+  {
+    "test": "w_ram M4K style",
+    "pass_": true,
+    "details": "synchronous BRAM-style declaration"
+  },
+  {
+    "test": "w_ram not array async-reset",
+    "pass_": true,
+    "details": "no for-loop clear in async-reset"
+  },
+  {
+    "test": "v_hist M4K style",
+    "pass_": true,
+    "details": "synchronous BRAM-style declaration"
+  },
+  {
+    "test": "v_hist not array async-reset",
+    "pass_": true,
+    "details": "no for-loop clear in async-reset"
+  },
+  {
+    "test": "y_hist M4K style",
+    "pass_": true,
+    "details": "synchronous BRAM-style declaration"
+  },
+  {
+    "test": "y_hist not array async-reset",
+    "pass_": true,
+    "details": "no for-loop clear in async-reset"
+  },
+  {
+    "test": "x_hist M4K style",
+    "pass_": true,
+    "details": "synchronous BRAM-style declaration"
+  },
+  {
+    "test": "x_hist not array async-reset",
+    "pass_": true,
+    "details": "no for-loop clear in async-reset"
+  },
+  {
+    "test": "xf_hist M4K style",
+    "pass_": true,
+    "details": "synchronous BRAM-style declaration"
+  },
+  {
+    "test": "xf_hist not array async-reset",
+    "pass_": true,
+    "details": "no for-loop clear in async-reset"
+  },
+  {
+    "test": "No old 16-bit xf_new",
+    "pass_": true,
+    "details": "32-bit xf_history"
+  },
+  {
+    "test": "Offline S frozen in RUN",
+    "pass_": true,
+    "details": "S RAM only written by S_COMMIT and sequential CLEAR"
+  },
+  {
+    "test": "FIR ROM length",
+    "pass_": true,
+    "details": "127"
+  },
+  {
+    "test": "Nominal cycles fit 6kHz",
+    "pass_": true,
+    "details": "est. 3670 < budget 8333, excludes fitter delays"
+  }
+]

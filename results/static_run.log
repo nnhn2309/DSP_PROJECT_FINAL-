@@ -1,0 +1,75 @@
+PASS RTL modules present: ['audio_pll', 'dc_blocker', 'de2_anc_top', 'decimator8_fir127', 'feedback_fxlms_bram', 'i2s_master_codec', 'interpolator8_linear', 'lfsr_prbs31', 'wm8731_config']
+PASS interpolator8_linear module/endmodule count: 1/1
+PASS interpolator8_linear begin/end count: 7/7
+PASS interpolator8_linear case/endcase count: 0/0
+PASS interpolator8_linear function/endfunction count: 1/1
+PASS interpolator8_linear braces (): 14/14
+PASS interpolator8_linear braces []: 8/8
+PASS decimator8_fir127 module/endmodule count: 1/1
+PASS decimator8_fir127 begin/end count: 14/14
+PASS decimator8_fir127 case/endcase count: 2/2
+PASS decimator8_fir127 function/endfunction count: 2/2
+PASS decimator8_fir127 braces (): 23/23
+PASS decimator8_fir127 braces []: 19/19
+PASS de2_anc_top module/endmodule count: 1/1
+PASS de2_anc_top begin/end count: 26/26
+PASS de2_anc_top case/endcase count: 1/1
+PASS de2_anc_top function/endfunction count: 1/1
+PASS de2_anc_top braces (): 135/135
+PASS de2_anc_top braces []: 109/109
+PASS lfsr_prbs31 module/endmodule count: 1/1
+PASS lfsr_prbs31 begin/end count: 3/3
+PASS lfsr_prbs31 case/endcase count: 0/0
+PASS lfsr_prbs31 function/endfunction count: 0/0
+PASS lfsr_prbs31 braces (): 4/4
+PASS lfsr_prbs31 braces []: 7/7
+PASS audio_pll module/endmodule count: 1/1
+PASS audio_pll begin/end count: 0/0
+PASS audio_pll case/endcase count: 0/0
+PASS audio_pll function/endfunction count: 0/0
+PASS audio_pll braces (): 24/24
+PASS audio_pll braces []: 2/2
+PASS feedback_fxlms_bram module/endmodule count: 1/1
+PASS feedback_fxlms_bram begin/end count: 65/65
+PASS feedback_fxlms_bram case/endcase count: 1/1
+PASS feedback_fxlms_bram function/endfunction count: 9/9
+PASS feedback_fxlms_bram braces (): 139/139
+PASS feedback_fxlms_bram braces []: 111/111
+PASS i2s_master_codec module/endmodule count: 1/1
+PASS i2s_master_codec begin/end count: 13/13
+PASS i2s_master_codec case/endcase count: 0/0
+PASS i2s_master_codec function/endfunction count: 0/0
+PASS i2s_master_codec braces (): 13/13
+PASS i2s_master_codec braces []: 10/10
+PASS dc_blocker module/endmodule count: 1/1
+PASS dc_blocker begin/end count: 7/7
+PASS dc_blocker case/endcase count: 0/0
+PASS dc_blocker function/endfunction count: 1/1
+PASS dc_blocker braces (): 16/16
+PASS dc_blocker braces []: 8/8
+PASS wm8731_config module/endmodule count: 1/1
+PASS wm8731_config begin/end count: 28/28
+PASS wm8731_config case/endcase count: 2/2
+PASS wm8731_config function/endfunction count: 1/1
+PASS wm8731_config braces (): 26/26
+PASS wm8731_config braces []: 14/14
+PASS Quartus references all sources: ['audio_pll.v', 'dc_blocker.v', 'de2_anc_top.v', 'decimator8_fir127.v', 'feedback_fxlms_bram.v', 'i2s_master_codec.v', 'interpolator8_linear.v', 'lfsr_prbs31.v', 'wm8731_config.v']
+PASS QSF 45 pins unique: 45
+PASS QSF pins match DE2 CSV: 45 assignments
+PASS s_ram M4K style: synchronous BRAM-style declaration
+PASS s_ram not array async-reset: no for-loop clear in async-reset
+PASS w_ram M4K style: synchronous BRAM-style declaration
+PASS w_ram not array async-reset: no for-loop clear in async-reset
+PASS v_hist M4K style: synchronous BRAM-style declaration
+PASS v_hist not array async-reset: no for-loop clear in async-reset
+PASS y_hist M4K style: synchronous BRAM-style declaration
+PASS y_hist not array async-reset: no for-loop clear in async-reset
+PASS x_hist M4K style: synchronous BRAM-style declaration
+PASS x_hist not array async-reset: no for-loop clear in async-reset
+PASS xf_hist M4K style: synchronous BRAM-style declaration
+PASS xf_hist not array async-reset: no for-loop clear in async-reset
+PASS No old 16-bit xf_new: 32-bit xf_history
+PASS Offline S frozen in RUN: S RAM only written by S_COMMIT and sequential CLEAR
+PASS FIR ROM length: 127
+PASS Nominal cycles fit 6kHz: est. 3670 < budget 8333, excludes fitter delays
+PASS total 74

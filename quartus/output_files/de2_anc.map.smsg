@@ -1,0 +1,2 @@
+Warning (10268): Verilog HDL information at dc_blocker.v(14): always construct contains both blocking and non-blocking assignments
+Info (10281): Verilog HDL Declaration information at feedback_fxlms_bram.v(19): object "LIMIT_PCM" differs only in case from object "limit_pcm" in the same scope

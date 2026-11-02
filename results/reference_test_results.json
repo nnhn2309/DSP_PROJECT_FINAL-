@@ -1,0 +1,77 @@
+{
+  "mul24x16_signed_split": {
+    "pass": true,
+    "details": {
+      "random_vectors": 20000
+    }
+  },
+  "gradient32x16_signed_split": {
+    "pass": true,
+    "details": {
+      "random_vectors": 20000
+    }
+  },
+  "gradient_sub_lsb_accumulation": {
+    "pass": true,
+    "details": {
+      "legacy_Q30_step": 0,
+      "new_Q38_step": 250,
+      "Q38_after_300": 75000,
+      "quantized_Q22_after_300": 1
+    }
+  },
+  "gradient_signed_symmetric_rounding": {
+    "pass": true,
+    "details": {
+      "examples": {
+        "1000": 0,
+        "-1000": 0,
+        "2000": 0,
+        "-2000": 0,
+        "50000": 24,
+        "-50000": -24
+      }
+    }
+  },
+  "anti_alias_filter": {
+    "pass": true,
+    "details": {
+      "taps": 127,
+      "passband_800Hz_dB": -0.44,
+      "stopband_3000Hz_dB": -68.19,
+      "dc_gain": 32768
+    }
+  },
+  "circular_buffer_address": {
+    "pass": true,
+    "details": {
+      "depth": 256,
+      "writes_checked": 2000,
+      "max_lookback": 127
+    }
+  },
+  "offline_secondary_identification": {
+    "pass": true,
+    "details": {
+      "validation_nmse_dB": -298.6,
+      "secondary_delay_samples": 12
+    }
+  },
+  "floating_feedback_anc_200hz": {
+    "pass": true,
+    "details": {
+      "noise_reduction_dB": 40.26,
+      "pre_rms": 0.08485,
+      "post_rms": 0.00082
+    }
+  },
+  "timing_nominal": {
+    "pass": true,
+    "details": {
+      "CLOCK_50_cycles_per_DSP_sample": 8333.333,
+      "FIR_group_delay_ms": 1.3125,
+      "codec_pcm_rate": 48000,
+      "DSP_rate": 6000
+    }
+  }
+}

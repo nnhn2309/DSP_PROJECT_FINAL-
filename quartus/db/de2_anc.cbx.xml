@@ -1,0 +1,23 @@
+<?xml version="1.0" ?>
+<LOG_ROOT>
+	<PROJECT NAME="de2_anc">
+		<CBX_INST_ENTRY INSTANCE_NAME="|de2_anc_top|decimator8_fir127:decim|altsyncram:hist_rtl_0" CBX_FILE_NAME="altsyncram_8ni1.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|de2_anc_top|feedback_fxlms_bram:anc|lpm_mult:Mult5" CBX_FILE_NAME="mult_j1t.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|de2_anc_top|feedback_fxlms_bram:anc|altsyncram:y_hist_rtl_0" CBX_FILE_NAME="altsyncram_eni1.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|de2_anc_top|feedback_fxlms_bram:anc|lpm_mult:Mult2" CBX_FILE_NAME="mult_j1t.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|de2_anc_top|feedback_fxlms_bram:anc|lpm_mult:Mult6" CBX_FILE_NAME="mult_h1t.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|de2_anc_top|dc_blocker:dc|lpm_mult:Mult0|multcore:mult_core|mpar_add:padder|lpm_add_sub:adder[0]" CBX_FILE_NAME="add_sub_v4h.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|de2_anc_top|decimator8_fir127:decim|lpm_mult:Mult0" CBX_FILE_NAME="mult_i1t.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|de2_anc_top|feedback_fxlms_bram:anc|altsyncram:v_hist_rtl_0" CBX_FILE_NAME="altsyncram_eni1.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|de2_anc_top|feedback_fxlms_bram:anc|altsyncram:xf_hist_rtl_0" CBX_FILE_NAME="altsyncram_ani1.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|de2_anc_top|feedback_fxlms_bram:anc|lpm_mult:Mult3" CBX_FILE_NAME="mult_30t.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|de2_anc_top|dc_blocker:dc|lpm_mult:Mult0|multcore:mult_core|mpar_add:padder|lpm_add_sub:adder[1]" CBX_FILE_NAME="add_sub_pfh.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|de2_anc_top|feedback_fxlms_bram:anc|altsyncram:s_ram_rtl_0" CBX_FILE_NAME="altsyncram_6ni1.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|de2_anc_top|feedback_fxlms_bram:anc|altsyncram:w_ram_rtl_0" CBX_FILE_NAME="altsyncram_uji1.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|de2_anc_top|feedback_fxlms_bram:anc|lpm_mult:Mult0" CBX_FILE_NAME="mult_h1t.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|de2_anc_top|feedback_fxlms_bram:anc|lpm_mult:Mult4" CBX_FILE_NAME="mult_h1t.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|de2_anc_top|dc_blocker:dc|lpm_mult:Mult0|multcore:mult_core|mpar_add:padder|mpar_add:sub_par_add|lpm_add_sub:adder[0]" CBX_FILE_NAME="add_sub_tfh.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|de2_anc_top|feedback_fxlms_bram:anc|altsyncram:x_hist_rtl_0" CBX_FILE_NAME="altsyncram_eni1.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|de2_anc_top|feedback_fxlms_bram:anc|lpm_mult:Mult1" CBX_FILE_NAME="mult_h1t.tdf"/>
+	</PROJECT>
+</LOG_ROOT>
